@@ -1,0 +1,479 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #92CFD5;
+    height: 50px;
+}
+
+.icon-header {
+    width: 35px;
+    height: 35px;
+}
+
+.icons-header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    
+}
+
+.icons-header li {
+    margin-right: 30px;
+}
+
+main {
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hero img:first-child {
+    margin-top: 36px;
+}
+
+.hero h1 { 
+    font-family: 'Solway', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #92CFD5;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.hero h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #928F8F;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.hero h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+}
+
+.content {
+    text-align: center;
+}
+
+.primeiro-paragrafo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7B7575;
+    margin-top: 30px;
+}
+
+.segundo-paragrafo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7575;
+    margin-top: 15px;
+}
+
+.conduta {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7575;
+    margin-top: 15px;
+}
+
+.conduta a {
+    color: #92CFD5;
+    text-decoration: none;
+}
+
+.botao-assista {
+    display: inline-block;
+    width: 170px;
+    height: 80px;
+    background-color: #92CFD5; 
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 30px;
+
+}
+
+.botao-assista p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 18px;
+} 
+
+.content a img { 
+    width: 133px;
+    height: 34px;
+}
+
+.cronograma {
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.cronograma h2:first-child {
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #92CFD5;
+    text-transform: uppercase;
+}
+
+.cronograma article {
+    margin-top: 70px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.article-cont {
+  margin-left: 50px;
+   
+}
+
+.article-content img {
+
+    border-radius: 50%;
+    border: 5px solid #92CFD5;
+}
+
+.article-cont h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #92CFD5;
+    text-transform: uppercase;
+}
+
+.article-cont h2 {
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.article-cont p {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #706C6C;
+
+}
+
+.redes-sociais {
+    
+    margin-top: 30px;
+}
+
+.redes-sociais li {
+    display: inline;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+.redes-sociais img { 
+    border: none;
+    
+}
+
+
+.article-horario p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #706C6C;
+    
+   
+}
+
+.article-horario a {
+    margin-right: 50px;
+    margin-top: -1px;
+    width: 120px;
+    height: 30px;
+    background-color: #92CFD5;
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    }
+
+footer {
+    background-color: #92CFD5;
+    height: 50px;
+    text-align: center;
+    
+}
+
+footer p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+
+@media (max-width: 1023px) { 
+
+    body {
+        width: 100%;
+       
+    }
+
+    header {
+        background-color:#92CFD5;
+        height: 50px;
+       
+    }
+    
+    
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero img:first-child {
+        margin-top: 36px;
+        width: 451px;
+        height: 479px;
+    }
+
+    .cronograma {
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .cronograma h2:first-child {
+        text-align: center;
+    }
+    
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .article-cont {
+      margin-left: 1em;
+       
+    }
+    
+    .article-content img {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        border: 5px solid #92CFD5;
+    }
+    
+   
+     .article-cont h2 {
+        font-family: Solway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    
+    }
+    
+    
+    .redes-sociais {
+        
+        margin-top: 30px;
+    }
+    
+    .redes-sociais li {
+        display: inline;
+    }
+    
+    .redes-sociais a {
+        text-decoration: none;
+    }
+    
+    .redes-sociais img { 
+        width: 2em;
+        height: 2em;
+        border: none;
+        
+    }
+    
+    .article-horario a {
+        margin-left: 10em;
+        margin-top: -1px;
+        width: 120px;
+        height: 30px;
+        }
+    
+
+    .article-horario p {
+        margin-top: 10px;
+        margin-left: 13em;
+    } 
+        
+    footer {
+        background-color: #92CFD5;
+        height: 50px;
+        text-align: center;
+        
+    }
+    
+    footer p {
+       
+        font-size: 0.8em;;
+       
+    }
+
+
+
+}
+
+/* Código de Conduta */
+
+.main-conduta {
+    margin-left: 50px;
+}
+
+.hero-conduta h1 { 
+    font-family: 'Solway', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #92CFD5;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.hero-conduta h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #928F8F;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.hero-conduta h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+}
+
+.texto-codigo h1 {
+    font-family: 'Solway', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 58px;
+    color: #92CFD5;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.texto-codigo p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color:#333333;
+    margin-top: 5px;
+}
+
+.texto-codigo ul {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    list-style-type: circle;
+}
+
+.texto-codigo li {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    margin-left: 50px;
+   
+}
+
+
+.referencia-codigo {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.referencia-codigo a {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    margin-left: 50px;
+   
+}
