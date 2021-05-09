@@ -14,3 +14,9 @@ body {
 .qrcode, .logo {
     width: 200px;
 }
+
+
+i {
+    font-size: 32px;
+    color: black;
+}
