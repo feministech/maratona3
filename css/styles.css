@@ -7,6 +7,9 @@ h1 {
     font-family: 'Anton', sans-serif;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 /* Header */
 header {
     background-image: url("/images/bg.png");

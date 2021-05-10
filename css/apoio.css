@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+.apoio__title {
+    font-family: Anton;
+    font-size: 80px;
+    line-height: 141px;
+    color: #4104A8;
+    margin: 50px 0;
+}
+
+.patrocinadores, .parcerias {
+    max-width: 60%;
+    margin: 100px auto;
+}
+
+.logo-vip  {
+    max-width: 500px;
+}
+
+.logo-comunidade {
+    max-width: 200px;
+}
