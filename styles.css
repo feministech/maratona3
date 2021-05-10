@@ -140,7 +140,7 @@ text-align: justify;
     margin: 20px 0;
 }
 
-.dobro {
+.dobro, .article-content {
     display: flex;
     justify-content: space-around;
 }
@@ -149,3 +149,30 @@ text-align: justify;
     display: flex;
     justify-content: space-around;
 }
+
+.palestra, .profissa {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    color: #4104A8;
+}
+
+.profissa {
+    font-size: 24px;
+}
+
+.palestra-discricao {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.nome {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+color: #00CAF3;
+}
+
+.profissa {}
