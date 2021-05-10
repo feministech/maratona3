@@ -1,5 +1,10 @@
 body {
-    background-color: #eeeeee;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
 }
 
 .icon-header {
@@ -7,7 +12,7 @@ body {
 }
 
 .foto-streamer {
-    width: 100px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -16,7 +21,7 @@ body {
 }
 
 
-i {
-    font-size: 32px;
-    color: black;
+.fab {
+    font-size: 42px;
+    color: #00CAF3;
 }
