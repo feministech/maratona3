@@ -1,6 +1,6 @@
 body {
-    background-color: #E5E5E5;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
 }
 
 h1 {
@@ -13,7 +13,7 @@ header {
     background-color: #00CAF3;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px; 
+    padding: 50px;
 }
 
 .header__content {
@@ -21,7 +21,7 @@ header {
     justify-content: space-around;
 }
 
-.header__content-holder{
+.header__content-holder {
     text-align: center;
 }
 
@@ -77,7 +77,7 @@ nav {
     margin: 70px 0;
 }
 
- .btn-link {
+.btn-link {
     color: #FDFDFD;
 }
 
@@ -85,12 +85,44 @@ nav {
     max-width: 550px;
 }
 
-/* Sobre */
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    max-width: 60%;
+}
+
 .qrcode {
-    width: 260px;
+    max-width: 30%;
+    margin-left: 30px;
+}
+
+.subtitle {
+    font-size: 26px;
+    line-height: 30px;
+    color: #4104A8;
+}
+
+.primeiro-paragrafo {
+    font-size: 26px;
+    line-height: 30px;
+    padding: 15px 0;    
+    font-weight: bold;
+}
+
+.segundo-paragrafo {
+font-size: 24px;
+line-height: 168.19%;
+text-align: justify;
 }
 
 /* Palestrantes */
+#palestrantes {
+    margin: 100px auto;
+    max-width: 60%;
+}
+
 .foto-streamer {
     width: 250px;
     border-radius: 50%;
@@ -99,4 +131,21 @@ nav {
 .fab {
     font-size: 42px;
     color: #00CAF3;
+}
+
+.card {
+    background: #E8E8E8;
+    border-radius: 30px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.dobro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
 }
