@@ -7,19 +7,94 @@ h1 {
     font-family: 'Anton', sans-serif;
 }
 
-.icon-header {
-    width: 50px;
+/* Header */
+header {
+    background-image: url("/images/bg.png");
+    background-color: #00CAF3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px; 
 }
 
+.header__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__content-holder{
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0 100px 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav__list-link {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px 30px;
+}
+
+.nav__list-link:hover {
+    color: #E5E5E5;
+    text-decoration: wavy;
+}
+
+.header__h2 {
+    font-size: 72px;
+    line-height: 86px;
+    color: #FDFDFD;
+}
+
+.header__title {
+    font-family: Anton;
+    font-size: 96px;
+    line-height: 141px;
+    color: #4104A8;
+    margin: 50px 0;
+}
+
+.header__h3 {
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.btn-inscreva {
+    background: #4104A8;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px 25px;
+    margin: 70px 0;
+}
+
+ .btn-link {
+    color: #FDFDFD;
+}
+
+.logo {
+    max-width: 550px;
+}
+
+/* Sobre */
+.qrcode {
+    width: 260px;
+}
+
+/* Palestrantes */
 .foto-streamer {
     width: 250px;
     border-radius: 50%;
 }
-
-.qrcode, .logo {
-    width: 200px;
-}
-
 
 .fab {
     font-size: 42px;
