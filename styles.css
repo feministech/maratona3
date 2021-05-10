@@ -40,6 +40,7 @@ nav {
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 10px 30px;
+    text-decoration: none;
 }
 
 .nav__list-link:hover {
@@ -79,6 +80,7 @@ nav {
 
 .btn-link {
     color: #FDFDFD;
+    text-decoration: none;
 }
 
 .logo {
@@ -94,7 +96,8 @@ nav {
 }
 
 .qrcode {
-    max-width: 30%;
+    width: 290px;
+    height: 290px;
     margin-left: 30px;
 }
 
@@ -102,19 +105,26 @@ nav {
     font-size: 26px;
     line-height: 30px;
     color: #4104A8;
+    font-weight: 500;
 }
 
 .primeiro-paragrafo {
     font-size: 26px;
     line-height: 30px;
     padding: 15px 0;    
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .segundo-paragrafo {
 font-size: 24px;
 line-height: 168.19%;
 text-align: justify;
+font-weight: 700;
+}
+
+.conduta-link {
+    color: #4104A8;
+    text-decoration: none;
 }
 
 /* Palestrantes */
@@ -155,13 +165,14 @@ text-align: justify;
     line-height: 35px;
     letter-spacing: 0.03em;
     color: #4104A8;
+    font-weight: 500;
 }
 
 .profissa {
     font-size: 24px;
 }
 
-.palestra-discricao {
+.palestra__descricao {
     font-size: 24px;
     line-height: 28px;
     text-align: justify;
