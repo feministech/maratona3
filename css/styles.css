@@ -225,5 +225,17 @@ font-weight: 700;
     margin: 0 auto;
 }
 
+/* Footer*/
 
+footer {
+    background-color:#00CAF3;
+    color: #E5E5E5;
+    height: 50px;
+    text-align: center;
+}
 
+.footer__text {
+    padding-top: 10px;
+}
+
+/* Equipe */
