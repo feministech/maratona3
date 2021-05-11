@@ -274,3 +274,8 @@ footer {
 .foto-cat {
     width: 500px;
 }
+
+.card-cat {
+    width: 60%;
+    margin: 20px auto;
+}
