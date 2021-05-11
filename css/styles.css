@@ -157,6 +157,12 @@ font-weight: 700;
     color: #00CAF3;
 }
 
+.fab:hover {
+    text-decoration: underline;
+    font-size: 46px;
+    color: #7109b6;
+}
+
 .card {
     background: #E8E8E8;
     border-radius: 30px;
@@ -239,3 +245,32 @@ footer {
 }
 
 /* Equipe */
+#equipe {
+    margin: 100px;
+    text-align: center;
+}
+
+.card__equipe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.equipe__title {
+    font-family: Anton;
+    font-size: 82px;
+    line-height: 141px;
+    color: #4104A8;
+    margin: 50px 0;
+}
+
+.amo__mto {
+    margin: 20px;
+}
+
+.feminiscat {
+    text-align: center;
+}
+
+.foto-cat {
+    width: 500px;
+}
