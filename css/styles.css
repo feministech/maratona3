@@ -70,12 +70,22 @@ nav {
     line-height: 43px;
     color: #000000;
 }
-
-.btn-inscreva {
+button {
     background: #4104A8;
     border-radius: 10px;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 25px;
+    margin: 40px 0;
+}
+
+a{
+    color: #FDFDFD;
+}
+
+.btn-inscreva {
+        font-size: 24px;
     line-height: 28px;
     padding: 10px 25px;
     margin: 70px 0;
@@ -139,6 +149,7 @@ font-weight: 700;
 .foto-streamer {
     width: 250px;
     border-radius: 50%;
+    margin: 0 50px;
 }
 
 .fab {
@@ -155,12 +166,25 @@ font-weight: 700;
 
 .dobro, .article-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
+}
+
+.dobro-item {
+    text-align: center;
+}
+
+.dobro {     
+    margin-top: 80px;
+    text-align: center;
 }
 
 .redes-sociais {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.social {
+    margin: 0 10px;
 }
 
 .palestra, .profissa {
@@ -176,6 +200,7 @@ font-weight: 700;
 }
 
 .palestra__descricao {
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: justify;
@@ -185,7 +210,20 @@ font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-
-color: #00CAF3;
+    color: #00CAF3;
 }
+
+.hora {
+    font-size: 28px;
+    line-height: 33px;
+    padding: 30px 0;
+}
+
+.palestra__descricao-d {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+
 
