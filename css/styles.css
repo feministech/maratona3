@@ -135,6 +135,14 @@ a{
     font-weight: 700;
 }
 
+.subtitle-equipe {
+    font-size: 2rem;
+    line-height: 30px;
+    color: #4104A8;
+    font-weight: 700;
+    text-align: left;
+}
+
 .primeiro-paragrafo {
     font-size: 26px;
     line-height: 30px;
@@ -290,6 +298,13 @@ footer {
     margin: 50px 0;
 }
 
+.foto-streamer-equipe {
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 50px;
+    margin-bottom: 1rem;
+}
+
 .amo__mto {
     margin: 20px;
 }
@@ -303,6 +318,6 @@ footer {
 }
 
 .card-cat {
-    width: 60%;
+    width: 81%;
     margin: 20px auto;
 }
