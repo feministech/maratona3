@@ -10,6 +10,8 @@ h1 {
 a:hover {
     text-decoration: underline;
 }
+
+
 /* Header */
 header {
     background-image: url("/images/bg.png");
@@ -17,15 +19,22 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .header__content {
     display: flex;
     justify-content: space-around;
+    max-width: 1300px;
 }
 
 .header__content-holder {
     text-align: center;
+    margin-left: 1rem;
 }
 
 nav {
@@ -52,7 +61,7 @@ nav {
 }
 
 .header__h2 {
-    font-size: 72px;
+    font-size: 60px;
     line-height: 86px;
     color: #FDFDFD;
 }
@@ -78,6 +87,11 @@ button {
     line-height: 28px;
     padding: 10px 25px;
     margin: 40px 0;
+    transition: ease-in-out .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 a{
@@ -105,7 +119,7 @@ a{
     display: flex;
     justify-content: space-between;
     margin: 100px auto;
-    max-width: 60%;
+    max-width: 85%;
 }
 
 .qrcode {
@@ -115,10 +129,10 @@ a{
 }
 
 .subtitle {
-    font-size: 26px;
+    font-size: 2rem;
     line-height: 30px;
     color: #4104A8;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .primeiro-paragrafo {
@@ -132,18 +146,19 @@ a{
 font-size: 24px;
 line-height: 168.19%;
 text-align: justify;
-font-weight: 700;
+font-weight: 500;
 }
 
 .conduta-link {
     color: #4104A8;
     text-decoration: none;
+    font-weight: 700;
 }
 
 /* Palestrantes */
 #palestrantes {
     margin: 100px auto;
-    max-width: 60%;
+    max-width: 86%;
 }
 
 .foto-streamer {
@@ -158,7 +173,7 @@ font-weight: 700;
 }
 
 .fab:hover {
-    text-decoration: underline;
+    
     font-size: 46px;
     color: #7109b6;
 }
@@ -187,6 +202,7 @@ font-weight: 700;
 .redes-sociais {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .social {
@@ -198,11 +214,13 @@ font-weight: 700;
     line-height: 35px;
     letter-spacing: 0.03em;
     color: #4104A8;
-    font-weight: 500;
+    font-weight: 700;
 }
+
 
 .profissa {
     font-size: 24px;
+    font-weight: 500;
 }
 
 .palestra__descricao {
@@ -217,12 +235,14 @@ font-weight: 700;
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #00CAF3;
+    margin-bottom: 1rem;
 }
 
 .hora {
     font-size: 28px;
     line-height: 33px;
     padding: 30px 0;
+    font-weight: 700;
 }
 
 .palestra__descricao-d {
@@ -230,6 +250,13 @@ font-weight: 700;
     max-width: 60%;
     margin: 0 auto;
 }
+
+.botao-assista {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
 
 /* Footer*/
 
