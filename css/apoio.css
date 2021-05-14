@@ -2,16 +2,31 @@ body {
     text-align: center;
 }
 
+.header-apoio {
+
+    background-image: url("/images/bg.png");
+    background-color: #00CAF3;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .apoio__title {
     font-family: Anton;
     font-size: 80px;
     line-height: 141px;
     color: #4104A8;
-    margin: 50px 0;
+    margin-bottom: 50px;
+    margin-top: -70px;
+    
 }
 
 .patrocinadores, .parcerias {
-    max-width: 60%;
+    max-width: 85%;
     margin: 100px auto;
 }
 
