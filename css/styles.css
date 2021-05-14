@@ -136,7 +136,7 @@ a{
     
 }
 
-.day {
+.dia {
     display: flex;
     flex-direction: column;
     justify-content: center;
