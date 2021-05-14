@@ -35,6 +35,7 @@ header {
 .header__content-holder {
     text-align: center;
     margin-left: 1rem;
+    position: relative;
 }
 
 nav {
@@ -114,6 +115,52 @@ a{
     width: 90%;
     max-width: 550px;
 }
+
+.counter {
+    position: absolute;
+    top: 450px;
+    left: 40%;
+}
+
+.vivo {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.contador {
+    display: flex;
+    
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #00CAF3;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+
 
 /* Hero */
 .hero {
