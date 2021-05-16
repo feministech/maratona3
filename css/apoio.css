@@ -3,7 +3,6 @@ body {
 }
 
 .header-apoio {
-
     background-image: url("/images/bg.png");
     background-color: #00CAF3;
     background-repeat: no-repeat;
@@ -21,8 +20,7 @@ body {
     line-height: 141px;
     color: #4104A8;
     margin-bottom: 50px;
-    margin-top: -70px;
-    
+    margin-top: -70px;    
 }
 
 .patrocinadores, .parcerias {
@@ -36,4 +34,12 @@ body {
 
 .logo-comunidade {
     max-width: 200px;
+}
+
+.flex {
+    display: flex
+}
+
+.flex-item {
+    width:50%;
 }
