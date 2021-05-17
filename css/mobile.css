@@ -14,3 +14,47 @@
 .logo-comunidade {
     max-width: 100px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 650px) { 
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .nav__list-link {
+        line-height: 40px;
+    }
+
+    .counter {
+        position: absolute;
+        top: 240px;
+        left: -25px;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        line-height: 30px;
+        color: #4104A8;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .qrcode {
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .nome {
+        font-size: 24px;
+        
+    }
+
+    .profissa {
+        font-size: 20px;
+       
+    }
+
+ }

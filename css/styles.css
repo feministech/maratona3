@@ -160,7 +160,10 @@ a{
     margin-right: 0.5rem;
 }
 
-
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* Hero */
 .hero {
