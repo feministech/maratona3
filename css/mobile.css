@@ -57,4 +57,45 @@
        
     }
 
+    .card {
+        background: #E8E8E8;
+        border-radius: 30px;
+       
+        margin: 20px 0;
+    }
+
+    #equipe {
+     margin: 0 auto;
+     padding: 0;
+     max-width: 90%;
+     
+    }
+
+    
+    .card__equipe {
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .amo__mto {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .foto-streamer-equipe {
+        width: 200px;
+      
+    }
+
+    .card-cat {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .foto-cat {
+        width: 200px;
+        margin-left: 0px;
+    }
+
  }
