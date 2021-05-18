@@ -40,6 +40,26 @@ body {
     display: flex
 }
 
-.flex-item {
-    width:50%;
+.card-apoio {
+    border-radius: 30px;
+    padding: 40px;
+    margin: 20px 0;
+    border: 5px outset #3d099e;
 }
+
+.flex-item {
+    width:500px;    
+    justify-content:center;
+    margin: 0 auto;
+}
+
+.vip-text {
+    color: #4104A8;
+}
+
+.flex-espaco {
+    margin-top:100px;
+    display: flex;
+    justify-content: space-around;
+}
+
