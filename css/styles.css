@@ -369,3 +369,9 @@ footer {
     width: 81%;
     margin: 20px auto;
 }
+
+@media only screen and (min-width: 651px) and (max-width: 1350px){
+  .card__equipe {
+      flex-wrap: wrap;
+  }
+  }
