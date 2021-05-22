@@ -1,0 +1,101 @@
+.header__content, .hero, .dobro, .article-content, .card__equipe {
+    flex-wrap: wrap;
+}
+
+#palestrantes, .patrocinadores, .parcerias {
+    max-width: 90%;
+    text-align: center;
+}
+
+.logo-vip  {
+    max-width: 300px;
+}
+
+.logo-comunidade {
+    max-width: 100px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) { 
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .nav__list-link {
+        line-height: 40px;
+    }
+
+    .counter {
+        position: absolute;
+        top: 240px;
+        left: -25px;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        line-height: 30px;
+        color: #4104A8;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .qrcode {
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .nome {
+        font-size: 24px;
+        
+    }
+
+    .profissa {
+        font-size: 20px;
+       
+    }
+
+    .card {
+        background: #E8E8E8;
+        border-radius: 30px;
+       
+        margin: 20px 0;
+    }
+
+    #equipe {
+     margin: 0 auto;
+     padding: 0;
+     max-width: 90%;
+     
+    }
+
+    
+    .card__equipe {
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .amo__mto {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .foto-streamer-equipe {
+        width: 200px;
+      
+    }
+
+    .card-cat {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .foto-cat {
+        width: 200px;
+        margin-left: 0px;
+    }
+
+ }
