@@ -1,0 +1,664 @@
+:root {
+    --gray: #E8E8E8;
+    --primary: #4104A8;
+    --secondary: #00CAF3;
+
+    --font-title: 'Anton', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    
+}
+
+.wrap {
+   
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* === HEADER ==== */
+
+header {
+    background-color: var(--secondary);
+    
+    
+}
+
+nav ul {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.menu-link {
+    font-family: var(--font-text);
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+
+}
+
+/* ==== INTRO ==== */
+
+.intro {
+    
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo {
+    font-family: var(--font-text);
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+}
+
+.subtitulo {
+    font-family: var(--font-title);
+    color: var(--primary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.data-maratona {
+    font-family: var(--font-text);
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.btn-inscreva {
+    font-family: var(--font-text);
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    width: 40%;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.vivo {
+    font-family: var(--font-text);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.counter {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.dia {
+    font-family: var(--font-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: .6rem;
+}
+
+.square {
+    font-family: var(--font-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    color: #000;
+    font-size: 1.2rem;
+    margin-right: .6rem;
+}
+
+/* ====== SOBRE ====== */
+
+.descricao {
+    max-width: 1300px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-h2 {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.descricao-p1 {
+    font-family: var(--font-text);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.descricao-p2 {
+    font-family: var(--font-text);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.qrcode {
+    max-width: 280px;
+}
+
+/* ====== PALESTRANTES ====== */
+
+.palestrantes {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1300px;
+}
+
+.card-duplo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+.titulo-palestra {
+    font-family: var(--font-title);
+    line-height: 1.5rem;
+    color: var(--primary);
+    margin-bottom: .5rem;
+}
+
+.horario-palestra {
+    font-family: var(--font-text);
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    
+}
+
+.descricao-palestra {
+    font-family: var(--font-text);
+    margin-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.card-interno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-streamer {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 80%;
+    margin-left: 1rem;
+    max-width: 200px;
+}
+
+.nome-streamer {
+    font-family: var(--font-text);
+    color: var(--secondary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.funcao-streamer {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.redes-sociais ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.redes-sociais li {
+    color: var(--secondary);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.btn-assista {
+    width: 100px;
+    background-color: var(--primary);
+    padding: 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    font-family: var(--font-text);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+.dados-palestra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====== EQUIPE ====== */
+
+.equipe {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 1rem;
+}
+
+.card-equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+/* ====== FEMINISCAT ====== */
+
+.feminiscat {
+    max-width: 1300px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.card-feminiscat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+.fem-span {
+    color: var(--secondary);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+/* ====== FOOTER ====== */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary);
+    font-family: var(--font-text);
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+
+/* ====== PÁGINA APOIO ====== */
+
+.apoio-title {
+    font-family: Anton;
+    font-size: 2.5em;
+    color: #4104A8;
+    line-height: 50px;
+    text-align: center;   
+    text-transform: uppercase; 
+    padding-bottom: 1rem;
+}
+
+.vip {
+    padding: 1rem;
+}
+
+.card-apoio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+.patrocinador {
+    margin-bottom: 2rem;
+}
+
+.img-pvip {
+    margin-bottom: 1rem;
+}
+
+.patrocinadores-comunidade {
+    padding: 1rem;
+}
+
+.parcerias {
+    padding: 1rem;
+}
+
+.logo-comunidade {
+    margin-top: 1rem;
+}
+
+
+/* ====== PÁGINA CONTATO ====== */ 
+
+.single-contato {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: .8rem;
+}
+
+.btn-inscreva-contato {
+    display: block;
+    font-family: var(--font-text);
+    background-color: var(--primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.descricao-p-contato{
+    font-family: var(--font-text);
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+
+.redes { 
+    text-align: center;
+}
+
+.redes-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.redes-contato li {
+    
+    font-size: 2rem;
+
+}
+
+.redes-contato a {
+    color: var(--secondary)
+}
+
+/* ====== MEDIA QUERY 900  ====== */
+
+@media (min-width: 900px) { 
+
+    .menu-link {
+        font-family: var(--font-text);
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 10px 30px;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    .menu-link:hover {
+        color: var(--primary);
+        
+    }
+
+    /* ==== INTRO ==== */
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url("/images/bg.png");
+        background-color: #00CAF3;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 30px 50px;
+        }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 50%;
+        margin-left: 5rem;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .logo-img {
+        max-width: 60%;
+        margin-bottom: 1rem;
+    }
+    /* ====== SOBRE ======= */
+
+    .sobre {
+        display: flex;
+    }
+
+    .texto {
+        padding: 0 2rem 0;
+    }
+
+    .titulo-h2 {
+        text-align: left;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .descricao-p1{
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .descricao-p2 {
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    /* ====== PALESTRANTES ======= */
+
+    .card-interno {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-evenly;
+        width: 90%;
+        }
+
+    .card-duplo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--gray);
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border-radius: .8rem;
+        padding-top: 2rem;
+    }
+
+    .titulo-palestra {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .single {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+       
+    }
+
+    .dados-palestra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .horario-palestra {
+        text-align: center;
+    }
+
+    .btn-assista {
+      margin-top: 2rem;
+    }
+  
+    .foto-streamer {
+        width: 200px;
+    }
+
+    .social {
+        color: var(--secondary);
+    }
+
+    .social:visited {
+        color: var(--secondary);
+    }
+
+    .social:hover {
+        color: var(--primary);
+    }
+
+    /* ====== EQUIPE ======= */
+
+    .cards-equipe {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    /* ====== PÁGINA APOIO ====== */
+
+    .apoio-title {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
+   .card-apoio {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    }
+
+    .card-apoio-com {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gray);
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border-radius: .8rem;
+        text-align: center;
+    }
+
+    .card-apoio img {
+        max-width: 300px;
+    }
+
+    .card-apoio-com img {
+        max-width: 300px;
+    }
+
+    .patrocinador {
+        width: 50%;
+        padding: 3rem;
+    }
+
+    .parceria {
+        padding-right: 2rem;;
+    }
+
+    /* ====== PÁGINA CONTATO ====== */
+
+    .single-contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    .inscrevase {
+        width: 500px;
+        
+    }
+} /* FIM MEDIA QUERY */

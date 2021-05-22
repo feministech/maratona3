@@ -1,101 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apoio | Maratona: Live Coder Girls BR</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/apoio.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 650px)">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header class="header-apoio">
-        <nav>
-            <ul class="nav__list">
-
-                <li class="nav__list-item">
-                    <a class="nav__list-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav__list-item">
-                    <a class="nav__list-link" href="contato.html">CONTATO</a>
-                </li>
-                <li class="nav__list-item">
-                    <a class="nav__list-link" href="apoio.html">APOIO</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header__content-holder">
-            <h1 class="apoio__title">Patrocinadores e Parcerias</h1>
-
-        </div>
-        </section>
-
-    </header>
-    <main>
-        <section class="patrocinadores">
-            <article class="patrocinadores__vip">
-                <h2 class="subtitle">Patrocinadores VIP</h2>
-                
-                    <div class="card flex">
-                        <a class="flex-item" href="http://twitch.tv/codigofalado" target="_blank">
-                            <img class="logo-vip" src="/images//logos/logo-codigo-falado.png">
-                            <h3>O Código Falado é o primeiro Twitch Partner de Live Coding do Brasil!</h3>
-                            </h3>Lives todas as Terças e Quintas às 20hs.</h3>
-                        </a>
-                        <a class="flex-item" href="https://eulerr.app" target="_blank">
-                            <img class="logo-vip" src="/images/logos/euller.jpeg">
-                            <h3>Uma plataforma leve e descomplicada que oferece um ambiente seguro e privado para suas
-                                conferências.</h3>
-                        </a>
-                    </div>
-               
-            </article>
-            <!--
-            <article class="patrocinadores__premium">
-                <h2 class="subtitle">Patrocinadores Premium</h2>
-                <div class="card"></div>
-            </article>-->
-            <article class="patrocinadores__comunidade">
-                <h2 class="subtitle">Patrocinadores Comunidade</h2>
-                <div class="card">
-                    <a href="https://www.jetbrains.com/" target="_blank">
-                        <img class="logo-comunidade" src="/images/logos/logo-jetbrains.png">
-                    </a>
-                    <a href="https://euquerograna.com.br/" target="_blank">
-                        <img class="logo-comunidade" src="/images/logos/IconEQGLaranja.png">
-                    </a>
-
+    <div class="wrap">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html#palestrantes" class="menu-link">Palestrantes</a></li>
+                    <li class="menu-item"><a href="index.html#equipe" class="menu-link">Equipe</a></li>
+                    <li class="menu-item"><a href="apoio.html" class="menu-link">Apoio</a></li>
+                    <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <h1 class="apoio-title">Patrocinadores e Parcerias</h1>
+        </header>
+        <main>
+            <section class="vip">
+                <h2 class="titulo-h2">Patrocinadores Vip</h2>
+                <div class="card-apoio">
+                    <article class="patrocinador">
+                        <a href="http://twitch.tv/codigofalado" target="_blank"><img src="/images//logos/logo-codigo-falado.png"></a>
+                        <h3 class="descricao-p1">O Código Falado é o primeiro Twitch Partner de Live Coding do Brasil!</h3>
+                        <p class="descricao-p2">Lives todas as Terças e Quintas às 20hs.</p>
+                    </article>
+                    <article class="patrocinador">
+                        <a href="https://eulerr.app" target="_blank"><img src="/images/logos/euller.jpeg" class="img-pvip"></a>
+                        <h3 class="descricao-p1">Uma plataforma leve e descomplicada que oferece um ambiente seguro e privado para suas conferências.</h3>
+                    </article>
                 </div>
-            </article>
-        </section>
-        <section class="parcerias">
-            <h2 class="subtitle">Parcerias</h2>
-            <div class="card">
-                <a href="https://www.braziljs.org/" target="_blank">
-                    <img class="logo-comunidade" src="/images/logos/braziljs.png">
-                </a>
-<<<<<<< HEAD
-                <a href="http://caverna.live/discord" target="_blank">
-                    <img class="logo-comunidade" src="/images/logos/Patocornio.png">
-                </a>
-                <a href="https://pokemaobr.dev/" target="_blank">
-                    <img class="logo-comunidade" src="/images/logos/pokemaobr.png">
-                </a>
-=======
->>>>>>> 07d7f46efa185c5bc71b1d5bca39806b26f6a058
-            </div>
-        </section>
-    </main>
-    </main>
-    <footer>
-        <p class="footer__text">Handcrafted with ❤ by Live Coder Girls Brasil ©2021</p>
-    </footer>
-</body>
+            </section>
 
+            <section class="patrocinadores-comunidade">
+                <h2 class="titulo-h2">Patrocinadores Comunidade</h2>
+                <div class="card-apoio-com">
+                    <article class="patrocinador">
+                        <a href="https://www.jetbrains.com/" target="_blank">
+                            <img class="logo-comunidade" src="/images/logos/logo-jetbrains.png">
+                        </a>
+                    </article>
+
+                    <article class="patrocinador">
+                        <a href="https://euquerograna.com.br/" target="_blank">
+                            <img class="logo-comunidade" src="/images/logos/IconEQGLaranja.png">
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="parcerias">
+                <h2 class="titulo-h2">Parcerias</h2>
+                <div class="card-apoio">
+                    <article class="parceria">
+                        <a href="https://www.braziljs.org/" target="_blank">
+                            <img class="logo-comunidade" src="/images/logos/braziljs.png">
+                        </a>
+                    </article>
+                    <article class="parceria">
+                        <a href="http://caverna.live/discord" target="_blank">
+                            <img class="logo-comunidade" src="/images/logos/Patocornio.png">
+                        </a>
+                    </article>
+                    <article class="parceria">
+                        <a href="https://pokemaobr.dev/" target="_blank">
+                            <img class="logo-comunidade" src="/images/logos/pokemaobr.png">
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer><p>Handcrafted with ❤ by Live Coder Girls Brasil ©2021</p></footer>
+    </div>
+</body>
 </html>

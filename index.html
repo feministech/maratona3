@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Maratona: Live Coder Girls BR</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 650px)">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8fca021c40.js" crossorigin="anonymous"></script>
@@ -17,39 +16,27 @@
     <div class="wrap">
         <header>
             <nav>
-                <ul class="nav__list">
-                    <li class="nav__list-item">
-                        <a class="nav__list-link" href="#palestrantes">PALESTRANTES</a>
-                    </li>
-
-                    <li class="nav__list-item">
-                        <a class="nav__list-link" href="#equipe">EQUIPE</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a class="nav__list-link" href="contato.html">CONTATO</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a class="nav__list-link" href="apoio.html">APOIO</a>
-                    </li>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#palestrantes" class="menu-link">Palestrantes</a></li>
+                    <li class="menu-item"><a href="#equipe" class="menu-link">Equipe</a></li>
+                    <li class="menu-item"><a href="apoio.html" class="menu-link">Apoio</a></li>
+                    <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
-            <section class="header__content">
-                <div class="header__content-holder">
-                    <h2 class="header__h2">3ª edição da Maratona</h2>
-                    <h1 class="header__title">Live Coder Girls</h1>
-                    <h3 class="header__h3">Sábado, dia 29 de maio de 2021</h3>
-                    <button class="btn-inscreva">
-                        <a class="btn-link"
-                            href="https://www.sympla.com.br/3-edicao-da-maratona-live-coder-girls__1205187"
-                            target="_blank">
-                            INSCREVA-SE</a>
-                    </button>
+        </header>
+        <main>
+            <section class="intro">
+                <div class="content">
+                    <h2 class="titulo">3ª edição da Maratona</h2>
+                    <h1 class="subtitulo">Live Coder Girls</h1>
+                    <h3 class="data-maratona">Sábado, dia 29 de maio de 2021</h3>
+                    <a href="https://www.sympla.com.br/3-edicao-da-maratona-live-coder-girls__1205187" class="btn-inscreva" target="_blank">Inscreva-se</a>
                 </div>
-                <div class="header__content-holder">
-                    <img class="logo" src="images/logo.png">
-                    <div class="counter">
-                        <p class="vivo">Ao vivo na Twitch em: </p>
-                        <div class="contador">
+                <div class="logo">
+                    <img class="logo-img" src="/images/logo.png" alt="Logo">
+                    <div class="contador">
+                        <p class="vivo">Ao vivo na <a href="https://www.twitch.tv">Twitch</a> em: </p>
+                        <div class="counter">
                             <div class="dia">
                                 <span class="day"></span>
                                 <span class="texto-day">Dias</span>
@@ -65,152 +52,109 @@
                             <div class="square">
                                 <span class="second"></span>
                                 <span class="texto-segundo">Sec</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </section>
+            </section> <!-- INTRO -->
 
-        </header>
-
-        <main>
-            <section class="hero">
+            <section class="descricao">
+                <h2 class="titulo-h2">Sobre o Evento</h2>
                 <div class="sobre">
-                    <h2 class="subtitle">SOBRE O EVENTO</h2>
-                    <p class="primeiro-paragrafo">Doze horas seguidas de lives com pessoas da comunidade.</p>
-                    <p class="segundo-paragrafo">Live Coder Girls BR é um grupo de pessoas que se identificam no
-                        feminino e não binárias que compartilham o interesse por lives na Twitch. Temos como objetivo
-                        aumentar a visibilidade dessas pessoas que fazem live coding e trazer mais diversidade para esse
-                        cenário, dando suporte a quem está começando e ajudando quem está há mais tempo a crescer e
-                        atingir seus objetivos. <span class="conduta segundo-paragrafo">Conheça nosso <a
-                            href="https://github.com/feministech/codigo-de-conduta" target="_blank"
-                            alt="Link para o nosso Código de Conduta" class="conduta-link">código de conduta.</a>
-                    </span></p>
-                    
-                </div>
-                <img class="qrcode" src="images/qrcode.png" alt="qr code">
-            </section>
-            <section id="palestrantes">
-                <h2 class="subtitle">PALESTRANTES</h2>
-                <article class="card dobro-item">
-                    <!-- Morgio e Levs-->
-                    <div>
-                        <div class="dobro-palestra">
-                            <h2 class="palestra">Keynote: Abertura da Maratona e dicas sobre Lives.</h2>
-
-                            <p class="hora">Horário: Das 12 às 13hrs</p>
-                            <p class="palestra__descricao palestra__descricao-d">Vamos conhecer as novidades sobre Live
-                                Coders Girls e
-                                aprender sobre como participar
-                                de comunidades e começar a compartilhar conteúdo fazendo lives na twitch.
-                            </p>
-                        </div>
-
-                        <div class="dobro">
-                            <div class="streamer2">
-                                <img class="foto-streamer" src="images/foto-morganna.png" alt="Foto da Morganna">
-                                <h2 class="nome">Morganna Giovanelli</h2>
-                                <h3 class="profissa">Desenvolvedora back-end</h3>
-                                <ul class="redes-sociais">
-                                    <li>
-                                        <a href="https://github.com/morgiovanelli" class="social" target="_blank">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/morgiovanellis" class="social" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/morgiovanelli/" class="social"
-                                            target="_blank">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="streamer2">
-                                <img class="foto-streamer" src="images/levs.jpg" alt="Foto da Leticia">
-                                <h2 class="nome">Leticia Caroline Leonardo</h2>
-                                <h3 class="profissa">Desenvolvedora front-end e Estudante</h3>
-                                <ul class="redes-sociais">
-                                    <li>
-                                        <a href="https://github.com/levxyca" class="social" target="_blank">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/levxyca" class="social" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/leticiacaroline/" class="social"
-                                            target="_blank">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="texto">
+                        <p class="descricao-p1">Doze horas seguidas de lives com pessoas da comunidade.</p>
+                        <p class="descricao-p2">Live Coder Girls BR é um grupo de pessoas que se identificam no
+                            feminino e não binárias que compartilham o interesse por lives na Twitch. Temos como objetivo
+                            aumentar a visibilidade dessas pessoas que fazem live coding e trazer mais diversidade para esse
+                            cenário, dando suporte a quem está começando e ajudando quem está há mais tempo a crescer e
+                            atingir seus objetivos. <span class="conduta segundo-paragrafo">Conheça nosso <a
+                                href="https://github.com/feministech/codigo-de-conduta" target="_blank"
+                                alt="Link para o nosso Código de Conduta" class="conduta-link">código de conduta.</a>
+                        </span></p>
                     </div>
-                    <button>
-                        <a href="https://www.twitch.tv/morgiovanelli" class="botao-assista" target="_blank">Assista</a>
-                    </button>
-                </article>
-                <article class="card">
-                    <!-- Leona -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/leona.jpg" alt="Foto da Leona">
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/tudodepende" class="social" target="_blank">
+                
+                <img src="images/qrcode.png" class="qrcode" alt="QR-CODE Inscreva-se">
+            </div>
+            </section> <!-- DESCRICAO -->
+
+            <section class="palestrantes" id="palestrantes">
+                <h2 class="titulo-h2">Palestrantes</h2>
+                <article class="card-duplo">
+                    <h3 class="titulo-palestra">Keynote: Abertura da Maratona e dicas sobre Lives.</h3>
+                    <p class="horario-palestra">Horário: Das 12 às 13hrs</p>
+                    <p class="descricao-palestra">Vamos conhecer as novidades sobre Live
+                        Coders Girls e
+                        aprender sobre como participar
+                        de comunidades e começar a compartilhar conteúdo fazendo lives na twitch.</p>
+                    <div class="card-interno">
+                        <div class="streamer-1">
+                            <img src="images/foto-morganna.png" class="foto-streamer" alt="Morganna Giovanelli">
+                            <p class="nome-streamer">Morganna Giovanelli</p>
+                            <p class="funcao-streamer">Desenvolvedora back-end</p>
+                            <div class="redes-sociais">
+                                <ul>
+                                    <li><a href="https://github.com/morgannadev" target="_blank" class="social"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="https://twitter.com/morgannadev" target="_blank" class="social"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/morgannadev/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="streamer-2">
+                            <img src="images/levs.jpg" class="foto-streamer" alt="Letícia Caroline Leonardo">
+                            <p class="nome-streamer">Letícia Caroline Leonardo</p>
+                            <p class="funcao-streamer">Desenvolvedora front-end e Estudante</p>
+                            <div class="redes-sociais">
+                                <ul>
+                                    <li><a href="https://github.com/levxyca" class="social" target="_blank">
                                         <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/leona_fps" class="social" target="_blank">
+                                    </a></li>
+                                    <li><a href="https://twitter.com/levxyca" class="social" target="_blank">
                                         <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                                    </a></li>
+                                    <li><a href="https://www.linkedin.com/in/leticiacaroline/" class="social" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a href="https://www.twitch.tv/morgannadev" target="_blank" class="btn-assista">Assista</a>
+                </article> <!-- Morgs e Lev -->
+
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/leona.jpg" class="foto-streamer" alt="Leona Souza">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/tudodepende" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/leonadev" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></i></li>
+                                <li><a href="https://www.linkedin.com/in/leonasouza/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></li>
                             </ul>
                         </div>
-                        <div class="flex-item">
-                            <h2 class="nome">Leona Souza, Streamer e Estudante</h2>
-                            <h3 class="palestra">O que são API's e JavaScript básico para leigos</h3>
-                            <p class="hora">Horário: Das 13 às 14hrs</p>
-                            <p class="palestra__descricao">Com exemplos práticos vamos aprender para que servem as
-                                API's. Depois vamos ver
-                                conceitos de programação com JS como tipos de variáveis, funções e estruturas de
-                                controle. Por último vamos interagir com uma API usando JavaScript.
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/leonafps" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Leona Souza, Streamer e Estudante</p>
+                        <h3 class="titulo-palestra">O que são API's e JavaScript básico para leigos</h3>
+                        <p class="horario-palestra">Horário: Das 13 às 14hrs</p>
+                        <p class="descricao-palestra">Com exemplos práticos vamos aprender para que servem as API's. Depois vamos ver conceitos de programação com JS como tipos de variáveis, funções e estruturas de controle. Por último vamos interagir com uma API usando JavaScript.</p>
+                        <a class="btn-assista" href="https://www.twitch.tv/leonadev" target="_blank">Assista</a>
+                    </div>
+                </article> <!-- Leona -->
 
-                </article>
-                <article class="card">
-                    <!-- xTecna -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/foto-tecna.png" alt="Foto da xTecna">
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/xTecna" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/WNXTecna" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/foto-tecna.png" class="foto-streamer" alt="Raquel Marcolino">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/xTecna" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/WNXTecna" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/raquelmarcolino/" class="social"
                                         target="_blank">
@@ -219,43 +163,30 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="flex-item">
-                            <h2 class="nome">Raquel Marcolino (Tecna), Desenvolvedora Backend</h2>
-                            <h3 class="palestra">Um algoritmo que joga 2048 e Damas</h3>
-                            <p class="hora">Horário: Das 14 às 15hrs</p>
-                            <p class="palestra__descricao">A Pesquisa de Monte Carlo em Árvores é um algoritmo de
-                                Inteligência Artificial que
-                                resolve diversos jogos através da previsão das jogadas futuras e uma ponderação
-                                sobre quais jogadas trazem os melhores resultados, bem parecido com o jeito que nós
-                                jogamos também! Vamos conhecer melhor sobre como o algoritmo funciona e o veremos em
-                                ação, tanto no 2048, onde só assistimos, quando nas Damas, onde você tem a chance de
-                                enfrentá-lo no grande embate entre ser humano e máquina.
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/xtecna" class="botao-assista" target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Raquel Marcolino (Tecna), Desenvolvedora Backend</p>
+                        <h3 class="titulo-palestra">Um algoritmo que joga 2048 e Damas</h3>
+                        <p class="horario-palestra">Horário: Das 14 às 15hrs</p>
+                        <p class="descricao-palestra">A Pesquisa de Monte Carlo em Árvores é um algoritmo de
+                            Inteligência Artificial que resolve diversos jogos através da previsão das jogadas futuras e uma ponderação sobre quais jogadas trazem os melhores resultados, bem parecido com o jeito que nós jogamos também! Vamos conhecer melhor sobre como o algoritmo funciona e o veremos em ação, tanto no 2048, onde só assistimos, quando nas Damas, onde você tem a chance de
+                            enfrentá-lo no grande embate entre ser humano e máquina.</p>
+                        <a class="btn-assista" href="https://www.twitch.tv/xtecna" target="_blank">Assista</a>
+                    </div>
+                </article> <!-- Tecna -->
 
-                </article>
-                <article class="card">
-                    <!-- Jackie -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/jackie.jpg" alt="Foto da Jakeliny">
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/jakeliny" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/jakeliny.gracielly/" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/jackie.jpg" class="foto-streamer" alt="Foto da Jakeliny">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/jakeliny" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://www.instagram.com/jakeliny.gracielly/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/jakelinygracielly/" class="social"
                                         target="_blank">
@@ -264,39 +195,27 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Jakeliny Gracielly, Developer, instructor, creator and Microsoft MVP
-                            </h2>
-                            <h3 class="palestra">WSL, Usando o poder no ubuntu dentro do windows</h3>
-                            <p class="hora">Horário: Das 15 às 16hrs</p>
-                            <p class="palestra__descricao">Vamos conhecer o WSL, recurso do windows que permite
-                                usarmos uma distribuição linux
-                                sem precisar de um programa de maquina virtual
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/jakeliny" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
-                </article>
-                <article class="card">
-                    <!-- Camille -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/mille.jpg" alt="Foto da Camille">
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/mmillecm" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/mmillelol" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Jakeliny Gracielly, Developer, instructor, creator and Microsoft MVP</p>
+                        <h3 class="titulo-palestra">WSL, Usando o poder no ubuntu dentro do windows</h3>
+                        <p class="horario-palestra">Horário: Das 15 às 16hrs</p>
+                        <p class="descricao-palestra">Vamos conhecer o WSL, recurso do windows que permite usarmos uma distribuição linux sem precisar de um programa de maquina virtual</p>
+                        <a class="btn-assista" href="https://www.twitch.tv/jakeliny" target="_blank">Assista</a>
+                    </div>
+                </article> <!-- Jakeliny -->
+
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/mille.jpg" class="foto-streamer" alt="Camille Couto">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/mmillecm" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/mmillelol" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/camillemello/" class="social" target="_blank">
                                         <i class="fab fa-linkedin"></i>
@@ -304,142 +223,97 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Camille Couto de Mello, Dev Junior</h2>
-                            <h3 class="palestra">Conversando com Devs Experientes</h3>
-                            <p class="hora">Horário: Das 16 às 17hrs</p>
-                            <p class="palestra__descricao">Vamos conversa com desenvolvedores experientes e como
-                                eles chegaram nessa etapa,
-                                vamos dar dica de estudos, conselhos, conta historia de vidas
-                            </p>
-                            <button>
-                                <a href="https://www.twitch.tv/mmillecm" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
-                </article>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Camille Couto de Mello, Dev Junior</p>
+                        <h3 class="titulo-palestra">Conversando com Devs Experientes</h3>
+                        <p class="horario-palestra">Horário: Das 16 às 17hrs</p>
+                        <p class="descricao-palestra">Vamos conversa com desenvolvedores experientes e como eles chegaram nessa etapa, vamos dar dica de estudos, conselhos, conta historia de vidas</p>
+                        <a class="btn-assista" href="https://www.twitch.tv/mmillecm" target="_blank">Assista</a>
+                    </div>
+                </article> <!-- Camille -->
 
-                <article class="card dobro-item">
-                    <!-- Pachi e Pilha-->
-                    <div>
-                        <div class="dobro-palestra">
-                            <h3 class="palestra">Pilhazinha Codes???</h3>
-                            <p class="hora">Horário: Das 17 às 18hrs</p>
-                            <p class="palestra__descricao palestra__descricao-d">Pair-Programming: Vamos ensinar uma
-                                gamer a Codar?</p>
-                            <p class="palestra__descricao palestra__descricao-d">O Plano é ensinar a Pilha a fazer um
-                                site básico em 1 hora. Será que
-                                rola?
-                            </p>
-
-                        </div>
-                        <div class="dobro">
-                            <div class="streamer2">
-                                <img class="foto-streamer" src="images/april.jpg" alt="Foto da Pachi">
-                                <h2 class="nome">Pachi Codes</h2>
-                                <h3 class="profissa">Live Coder Streamer</h3>
-                                <ul class="redes-sociais">
-                                    <li>
-                                        <a href="https://github.com/pachicodes" class="social" target="_blank">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/pachicodes" class="social" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/pachicodes/" class="social"
-                                            target="_blank">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="streamer2">
-                                <img class="foto-streamer" src="images/pilha.jpg" alt="Foto da Pilhazinha">
-                                <h2 class="nome">Pilhazinha</h2>
-                                <h3 class="profissa">Gamer Streamer</h3>
-                                <ul class="redes-sociais">
-                                    <li>
-                                        <a href="https://twitch.com/pilhazinha" class="social" target="_blank">
-                                            <i class="fab fa-twitch"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://instagram.com/pilhazinhaa" class="social" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com/pilhazinhaa/" class="social" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <button>
-                            <a href="https://www.twitch.tv/pachicodes" class="botao-assista" target="_blank">Assista</a>
-                        </button>
-
-                </article>
-                <article class="card">
-                    <!-- Snittey -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/Snittey.png" alt="Foto da Mayara Canaver">
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/mayara-canaver" class="social" target="_blank">
+                <article class="card-duplo">
+                    <h3 class="titulo-palestra">Pilhazinha Codes???</h3>
+                    <p class="horario-palestra">Horário: Das 17 às 18hrs</p>
+                    <p class="descricao-palestra">Pair-Programming: Vamos ensinar uma gamer a Codar? O Plano é ensinar a Pilha a fazer um site básico em 1 hora. Será que rola?</p>
+                    <div class="card-interno">
+                        <div class="streamer-1">
+                            <img src="images/april.jpg" class="foto-streamer" alt="Pachi Codes">
+                            <p class="nome-streamer">Pachi Codes</p>
+                            <p class="funcao-streamer">Live Coder Streamer</p>
+                            <div class="redes-sociais">
+                                <ul>
+                                    <li><a href="https://github.com/pachicodes" class="social" target="_blank">
                                         <i class="fab fa-github"></i>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/mayara-canaver/" class="social"
+                                    </a></li>
+                                    <li><a href="https://twitter.com/pachicodes" class="social" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a></li>
+                                    <li><a href="https://www.linkedin.com/in/pachicodes/" class="social"
                                         target="_blank">
                                         <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="streamer-2">
+                            <img src="images/pilha.jpg" class="foto-streamer" alt="Pilhazinha">
+                            <p class="nome-streamer">Pilhazinha</p>
+                            <p class="funcao-streamer">Gamer Streamer</p>
+                            <div class="redes-sociais">
+                                <ul>
+                                    <li><a href="https://twitch.com/pilhazinha" class="social" target="_blank">
+                                        <i class="fab fa-twitch"></i>
+                                    </a></li>
+                                    <li> <a href="https://instagram.com/pilhazinhaa" class="social" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a></li>
+                                    <li><a href="https://www.twitter.com/pilhazinhaa/" class="social" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a href="https://www.twitch.tv/pachicodes" target="_blank" class="btn-assista">Assista</a>
+                </article> <!-- Pachi e Pilha -->
+
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/Snittey.png" class="foto-streamer" alt="Mayara Canaver">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/mayara-canaver" class="social" target="_blank">
+                                    <i class="fab fa-github"></i></li>
+                                <li><a href="https://www.linkedin.com/in/mayara-canaver/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Mayara Canaver, Streamer / Cientista de Dados</h2>
-                            <h3 class="palestra">Introdução a Data Science e Machine Learning</h3>
-                            <p class="hora">Horário: Das 18 às 19hrs</p>
-                            <p class="palestra__descricao">Bora saber os conceitos iniciais de data science e
-                                entender o porquê dessa área ser
-                                tão aclamada?
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/snittey" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Mayara Canaver, Streamer e Cientista de Dados</p>
+                        <h3 class="titulo-palestra">Introdução a Data Science e Machine Learning</h3>
+                        <p class="horario-palestra">Horário: Das 18 às 19hrs</p>
+                        <p class="descricao-palestra">Bora saber os conceitos iniciais de data science e entender o porquê dessa área ser tão aclamada?</p>
+                        <a class="btn-assista" href="https://www.twitch.tv/snittey" target="_blank">Assista</a>
+                    </div>
+                </article> <!-- Mayara -->
 
-                </article>
-
-                <article class="card">
-                    <!-- Punk -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/punk.jpg" alt="Foto da Punk">
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/camilla-m" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/punkdodevops" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/punk.jpg" class="foto-streamer" alt="Camilla Martins">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/camilla-m" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/punkdodevops" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/camilla-martins-603344115/" class="social"
                                         target="_blank">
@@ -448,40 +322,26 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Camilla Martins - Punk do DevOps, Senior DevOps</h2>
-                            <h3 class="palestra">Stacks DevOps - Conheça esse mundo, tire dúvidas e participe do
-                                handson </h3>
-                            <p class="hora">Horário: Das 19 às 20hrs</p>
-                            <p class="palestra__descricao">
-                                Galeraaaa, vamo tirar várias dúvidas, fazer uma livezinha bate-papo e mostrando
-                                stacks como terraform, k8s, docker, packer, ansible, etc na cloud :)
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/punkdodevops" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Camilla Martins - Punk do DevOps, Senior DevOps</p>
+                        <h3 class="titulo-palestra">Stacks DevOps - Conheça esse mundo, tire dúvidas e participe do handson</h3>
+                        <p class="horario-palestra">Horário: Das 19 às 20hrs</p>
+                        <p class="descricao-palestra">Galeraaaa, vamo tirar várias dúvidas, fazer uma livezinha bate-papo e mostrando stacks como terraform, k8s, docker, packer, ansible, etc na cloud :)</p>
+                        <a href="https://www.twitch.tv/punkdodevops" target="_blank" class="btn-assista">Assista</a>
+                    </div>
+                </article> <!-- Punk -->
 
-                </article>
-                <article class="card">
-                    <!-- Bug -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/bugs.jpg" alt="Foto da Bugs">
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/bugelseif" class="social" target="_blank">
-                                        <i class="fab fa-github"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/bug_elseif" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/bugs.jpg" class="foto-streamer" alt="Bruna Ferreira">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li> <a href="https://github.com/bugelseif" class="social" target="_blank">
+                                    <i class="fab fa-github"></i></a></li>
+                                <li><a href="https://twitter.com/bug_elseif" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/bruna-ferreira-844b3a95/" class="social"
                                         target="_blank">
@@ -490,37 +350,27 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Bruna Ferreira, Estudante de Ciência da Computação</h2>
-                            <h3 class="palestra">Python - Turtle Graphics</h3>
-                            <p class="hora">Horário: Das 20 às 21hrs</p>
-                            <p class="palestra__descricao">Veremos uma introdução ao Turtle graphics do Python, comandos
-                                básicos para fazer os primeiros desenhos. Vamos desenhar, chat?</p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/bug_elseif" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Bruna Ferreira, Estudante de Ciência da Computação</p>
+                        <h3 class="titulo-palestra">Python - Turtle Graphics</h3>
+                        <p class="horario-palestra">Horário: Das 20 às 21hrs</p>
+                        <p class="descricao-palestra">Veremos uma introdução ao Turtle graphics do Python, comandos básicos para fazer os primeiros desenhos. Vamos desenhar, chat?</p>
+                        <a href="https://www.twitch.tv/bug_elseif" target="_blank" class="btn-assista">Assista</a>
+                    </div>
+                </article> <!-- Bug -->
 
-                </article>
-                <article class="card">
-                    <!-- Lys -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/lys.jpg" alt="Foto da Amaryllis">
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/lysonjeada" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/LYSonjeada" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/lys.jpg" class="foto-streamer" alt="Amaryllis (lysonjeada)">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/lysonjeada" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/LYSonjeada" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/amaryllis-baldrez/" class="social"
                                         target="_blank">
@@ -529,41 +379,27 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Amaryllis (lysonjeada), Desenvolvedora Back-end</h2>
-                            <h3 class="palestra">Bate-papo e estudos de desenvolvimento iOS com Swift</h3>
-                            <p class="hora">Horário: Das 21 às 22hrs</p>
-                            <p class="palestra__descricao">Vou compartilhar um pouco dos meus estudos de Swift (algo
-                                bem iniciante mesmo) e
-                                conversaremos sobre tecnologia, mudança de back-end pra mobile, qualquer coisa!
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/lysonjeada" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Amaryllis (lysonjeada), Desenvolvedora Back-end</p>
+                        <h3 class="titulo-palestra">Bate-papo e estudos de desenvolvimento iOS com Swift</h3>
+                        <p class="horario-palestra">Horário: Das 21 às 22hrs</p>
+                        <p class="descricao-palestra">Vou compartilhar um pouco dos meus estudos de Swift (algo bem iniciante mesmo) e conversaremos sobre tecnologia, mudança de back-end pra mobile, qualquer coisa!</p>
+                        <a href="https://www.twitch.tv/lysonjeada" target="_blank" class="btn-assista">Assista</a>
+                    </div>
+                </article> <!-- Lys -->
 
-
-                </article>
-                <article class="card">
-                    <!-- JuliaLabs -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/julialabs.jpg" alt="Foto da Julia">
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/juliallabs" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/laboratoriodajulia" class="social" target="_blank">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/julialabs.jpg" class="foto-streamer" alt="Julia Labs">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/juliallabs" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://www.youtube.com/laboratoriodajulia" class="social" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://www.linkedin.com/in/julia-metzger-02789a12b/" class="social"
                                         target="_blank">
@@ -572,41 +408,27 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Julia Labs, Engenheira da Computação</h2>
-                            <h3 class="palestra">Projetando uma PCB do Zero</h3>
-                            <p class="hora">Horário: Das 22 às 23hrs</p>
-                            <p class="palestra__descricao">Bora projetar uma placa de circuito impresso do ZERO.</p>
-                            <p class="palestra__descricao">Esquematico, board e acabamentos!!! Nosso objetivo e
-                                fazer uma PCB completa em 1
-                                hora!
-                            </p>
-
-                            <button>
-                                <a href="https://www.twitch.tv/julialabs" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Julia Labs, Engenheira da Computação</p>
+                        <h3 class="titulo-palestra">Projetando uma PCB do Zero</h3>
+                        <p class="horario-palestra">Horário: Das 22 às 23hrs</p>
+                        <p class="descricao-palestra">Vora projetar uma placa de circuito impresso do ZERO. Esquematico, board e acabamentos!!! Nosso objetivo e fazer uma PCB completa em 1 hora!</p>
+                        <a href="https://www.twitch.tv/julialabs" target="_blank" class="btn-assista">Assista</a>
+                    </div>
+                </article> <!-- Julia Labs -->
 
-                </article>
-                <article class="card">
-                    <!-- Leitora Incomum -->
-                    <div class="article-content">
-                        <div class="flex-item">
-                            <img class="foto-streamer" src="images/fer.jpg" alt="Foto da Fernanda">
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/leitoraincomum" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/leitoraincomum" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
+                <article class="single">
+                    <div class="streamer">
+                        <img src="images/fer.jpg" class="foto-streamer" alt="Fernanda Souza">
+                        <div class="redes-sociais">
+                            <ul>
+                                <li> <a href="https://github.com/leitoraincomum" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/leitoraincomum" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
                                 <li>
                                     <a href="https://linkedin.com/in/leitoraincomum" class="social" target="_blank">
                                         <i class="fab fa-linkedin"></i>
@@ -614,268 +436,215 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="article-cont">
-                            <h2 class="nome">Fernanda Souza, Estudante de Análise e Desenvolvimento de Sistemas</h2>
-                            <h3 class="palestra">Ferramentas e plataformas para estudo</h3>
-                            <p class="hora">Horário: Das 23 às 24hrs</p>
-                            <p class="palestra__descricao">Vamos conversar sobre algumas ferramentas e plataformas para início de estudos de lógica de programação e novas linguagens ou idiomas? Além disso, como encontrar espaços acolhedores na comunidade tech e como procurar praticar uma empatia assertiva que seja realmente acolhedora com novos membros.
-                            </p>
-                            <button>
-                                <a href="https://www.twitch.tv/leitoraincomum" class="botao-assista"
-                                    target="_blank">Assista</a>
-                            </button>
-                        </div>
                     </div>
+                    <div class="dados-palestra">
+                        <p class="nome-streamer">Fernanda Souza, Estudante de Análise e Desenvolvimento de Sistemas</p>
+                        <h3 class="titulo-palestra">Ferramentas e plataformas para estudo</h3>
+                        <p class="horario-palestra">Horário: Das 23 às 24hrs</p>
+                        <p class="descricao-palestra">Vamos conversar sobre algumas ferramentas e plataformas para início de estudos de lógica de programação e novas linguagens ou idiomas? Além disso, como encontrar espaços acolhedores na comunidade tech e como procurar praticar uma empatia assertiva que seja realmente acolhedora com novos membros.</p>
+                        <a href="https://www.twitch.tv/leitoraincomum" target="_blank" class="btn-assista">Assista</a>
+                    </div>
+                </article> <!-- Fernanda -->
 
+            </section> <!-- PALESTRANTES -->
 
-                </article>
-            </section>
-
-            <section id="equipe">
-                <h2 class="subtitle-equipe">EQUIPE</h2>
-                <div class="card">
-                    
-                    <article class="card__equipe">
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/carol.jpg" alt="Foto da Carol">
-                            <h2 class="nome">Carolina Donadel</h2>
-                            <h3 class="profissa">Produtora e Moderadora Chefe na Feministech</h3>
-
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/caroldonadel" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/acaroldonadel" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/carolina-donadel/" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+            <section class="equipe" id="equipe">
+                <h2 class="titulo-h2">Equipe</h2>
+                <div class="cards-equipe">
+                    <article class="card-equipe">
+                        <img src="images/carol.jpg" alt="Carolina Donadel" class="foto-streamer">
+                        <h3 class="nome-streamer">Carolina Donadel</h3>
+                        <p class="horario-palestra">Produtora e Moderadora Chefe na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/caroldonadel" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/acaroldonadel" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></i></li>
+                                <li><a href="https://www.linkedin.com/in/carolina-donadel/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/anne.jpg" alt="Foto da Anne">
-                            <h2 class="nome">Anne Maxine</h2>
-                            <h3 class="profissa">Produtora e Coordenadora de Eventos na Feministech</h3>
+                    </article> <!-- Carol -->
 
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="#" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/annemaxime" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/anacrsoares/" class="social" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    <article class="card-equipe">
+                        <img src="images/anne.jpg" alt="Anne Maxime" class="foto-streamer">
+                        <h3 class="nome-streamer">Anne Maxime</h3>
+                        <p class="horario-palestra">Produtora e Coordenadora de Eventos na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/annesoares" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/annemaxime" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/anacrsoares/" class="social" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/paty.jpg" alt="Foto da Paty">
-                            <h2 class="nome">Patricia Novaes</h2>
-                            <h3 class="profissa">Designer, Moderadora e Streamer na Feministech</h3>
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/pxlrose" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/pixlrose" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/patricia-novaes/" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="card__equipe">
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/lele.jpg" alt="Foto da Lele">
-                            <h2 class="nome">Letícia Pegoraro Garcez</h2>
-                            <h3 class="profissa">Moderadora e Tesoureira na Feministech</h3>
+                    </article> <!-- Anne -->
 
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/LelePGl" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/lelepg/" class="social" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    <article class="card-equipe">
+                        <img src="images/paty.jpg" alt="Patricia Novaes" class="foto-streamer">
+                        <h3 class="nome-streamer">Patricia Novaes</h3>
+                        <p class="horario-palestra">Designer, Moderadora e Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/pfanovaes" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/pixlrose" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/patricia-novaes/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/levs.jpg" alt="Foto da Levxyca">
-                            <h2 class="nome">Leticia Leonardo</h2>
-                            <h3 class="profissa">Co-fundadora, Moderadora e Streamer na Feministech</h3>
+                    </article> <!-- PatyPixel -->
 
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/levxyca" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/levxyca" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/leticiacaroline/" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    <article class="card-equipe">
+                        <img src="images/lele.jpg" alt="Letícia Pegoraro Garcez" class="foto-streamer">
+                        <h3 class="nome-streamer">Letícia Pegoraro Garcez</h3>
+                        <p class="horario-palestra">Moderadora e Tesoureira na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li> <a href="https://github.com/LelePG" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                
+                                <li><a href="https://www.linkedin.com/in/lelepg/" class="social" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/lys.jpg" alt="Foto da Lys">
-                            <h2 class="nome">Amaryllis Baldrez</h2>
-                            <h3 class="profissa">Moderadora e Streamer na Feministech</h3>
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="http://github.com/lysonjeada" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/LYSonjeada" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/amaryllis-baldrez/" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="card__equipe">
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/bugs.jpg" alt="Foto da Bruna">
-                            <h2 class="nome">Bruna Ferreira</h2>
-                            <h3 class="profissa">Desenvolvedora de Bots, Gerente de Midias Sociais e Streamer na
-                                Feministech</h3>
+                    </article> <!-- Lele -->
 
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/bugelseif" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/bug_elseif" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com/in/bruna-ferreira0844b3a95" class="social"
-                                        target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    <article class="card-equipe">
+                        <img src="images/levs.jpg" alt="Letícia Leonardo" class="foto-streamer">
+                        <h3 class="nome-streamer">Leticia Leonardo</h3>
+                        <p class="horario-palestra">Co-fundadora, Moderadora e Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/levxyca" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/levxyca" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/leticiacaroline/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/april.jpg" alt="Foto da Pachi">
-                            <h2 class="nome">Patrícia Carlson</h2>
-                            <h3 class="profissa">Co-fundadora, Gerente de Midias Sociais e Streamer na Feministech</h3>
+                    </article> <!-- Levxyca -->
 
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/pachicodes" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/pachicodes" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/pachicodes" class="social" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    <article class="card-equipe">
+                        <img src="images/bugs.jpg" alt="Bruna Ferreira" class="foto-streamer">
+                        <h3 class="nome-streamer">Bruna Ferreira</h3>
+                        <p class="horario-palestra">Desenvolvedora de Bots, Gerente de Midias Sociais e Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/bugelseif" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/bug_elseif" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/bruna-ferreira-844b3a95/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                        <div class="amo__mto">
-                            <img class="foto-streamer-equipe" src="images/foto-morganna.png" alt="Foto da Morganna">
-                            <h2 class="nome">Morganna Giovanelli</h2>
-                            <h3 class="profissa">Organizadora de Eventos, Moderadora, Streamer na Feministech</h3>
-                            <ul class="redes-sociais">
-                                <li>
-                                    <a href="https://github.com/morgiovanelli" class="social" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/morgiovanellis" class="social" target="_blank">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/morgiovanelli/" class="social" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
+                    </article> <!-- Bug -->
+
+                   <article class="card-equipe">
+                        <img src="images/fabricia.jpeg" alt="Fabricia Diniz" class="foto-streamer">
+                        <h3 class="nome-streamer">Fabrícia Diniz</h3>
+                        <p class="horario-palestra">Co-fundadora, Moderadora e Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><li><a href="https://github.com/FabriciaDiniz" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li></li>
+                                <li><a href="https://twitter.com/FabrciaDiniz" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></i></li>
+                                <li><a href="https://www.linkedin.com/in/fabricia-diniz/" class="social"
+                                    target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
                             </ul>
                         </div>
-                    </article>
+                    </article> <!-- Fabricia -->
+
+                    <article class="card-equipe">
+                        <img src="images/april.jpg" alt="Patrícia Carlson" class="foto-streamer">
+                        <h3 class="nome-streamer">Patrícia Carlson</h3>
+                        <p class="horario-palestra">Co-fundadora, Gerente de Midias Sociais e Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/pachicodes" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/pachicodes" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/pachicodes" class="social" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </article> <!-- Pachi -->
+
+                    <article class="card-equipe">
+                        <img src="images/foto-morganna.png" alt="Morganna Giovanelli" class="foto-streamer">
+                        <h3 class="nome-streamer">Morganna Giovanelli</h3>
+                        <p class="horario-palestra">Corganizadora de Eventos, Moderadora, Streamer na Feministech</p>
+                        <div class="redes-sociais">
+                            <ul>
+                                <li><a href="https://github.com/morgannadev" class="social" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a></li>
+                                <li><a href="https://twitter.com/morgannadev" class="social" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.linkedin.com/in/morgannadev/" class="social" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </article> <!-- Morganna -->
                 </div>
             </section>
+
             <section class="feminiscat">
-                <div class="card card-cat">
-                    <img class="foto-streamer foto-cat" src="images/feminiscat.jpg" alt="Foto da gata Patricia">
-                    <h2 class="nome">Patrícia, a Feminiscat</h2>
-                    <h3 class="profissa">CEO e Modelo na Feministech</h3>
-
-                    <ul class="redes-sociais">
-                        <li>
-                            <a href="https://instagram.com/feminis_cat" class="social" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="card-feminiscat">
+                    <img src="images/feminiscat.jpg" alt="Feminiscat" class="foto-streamer">
+                    <h3 class="nome-streamer">Patrícia, a Feminiscat</h3>
+                    <p class="horario-palestra">CEO e modelo na Feministech</p>
+                    <div class="redes-sociais">
+                        <span class="fem-span"> <a href="https://instagram.com/feminis_cat" class="social" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a></span>
+                    </div>
                 </div>
             </section>
+
         </main>
+        <footer><p>Handcrafted with ❤ by Live Coder Girls Brasil ©2021</p></footer>
     </div>
 
-    <footer>
-        <p class="footer__text">Handcrafted with ❤ by Live Coder Girls Brasil ©2021</p>
-    </footer>
-
-    <script src="JS/main.js"></script>
+   <script src="JS/main.js"></script>
 </body>
 
 </html>
