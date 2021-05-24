@@ -34,7 +34,7 @@ nav ul {
     max-width: 1300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -98,6 +98,11 @@ nav ul {
     margin-bottom: 3rem;
     width: 40%;
     text-align: center;
+    transition: transform 250ms;
+}
+
+.btn-inscreva:hover {
+    transform: scale(1.1);
 }
 
 .logo {
@@ -280,6 +285,11 @@ nav ul {
     font-family: var(--font-text);
     text-transform: uppercase;
     text-align: center;
+    transition: transform 250ms;
+}
+
+.btn-assista:hover {
+    transform: scale(1.1);
 }
 
 .single {
